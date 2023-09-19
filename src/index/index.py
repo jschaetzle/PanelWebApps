@@ -13,24 +13,20 @@ APPLICATIONS = Application.read(ROOT/ "index.yaml")
 FAVICON = "https://raw.githubusercontent.com/MarcSkovMadsen/awesome-panel-assets/320297ccb92773da099f6b97d267cc0433b67c23/favicon/ap-1f77b4.ico"
 
 index_html = GalleryTemplate(
-        site="Awesome Panel",
+        site="Panel",
         site_url="https://awesome-panel.org",
         title="Webassembly Apps",
-        description="""The purpose of the Awesome Panel Webassembly Apps is to inspire
-and help you create awesome analytics apps in
-<fast-anchor href="https://panel.holoviz.org" target="_blank"
- appearance="hypertext">Panel</fast-anchor> using the tools you know and
- love.""",
+        description="""  """,
         applications=APPLICATIONS,
         target="_self",
         theme="default",
         meta_name="Awesome Panel Examples",
-        meta_description="Example webassembly applications provided by awesome-panel.org",
+        meta_description="   ",
         meta_keywords=(
             "Awesome, HoloViz, Panel, Gallery, Apps, Science, Data Engineering, Data Science, "
             "Machine Learning, Python"
         ),
-        meta_author="Marc Skov Madsen",
+        meta_author="Jerome Schätzle",
         accent_base_color="#1f77b4",
         favicon=FAVICON,
 )
